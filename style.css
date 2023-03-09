@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container{
+    background-color: rgb(171, 238, 229);      /* When we apply a background-color to this element it is not gonna be displayed
+                                               on the screen browser because it has already applied some css default properties*/
+    position: relative;
+    padding-top: 100px;
+                                            }
+
+
+h1{                              /* The best thing when making css style to the file is to go to the browser and check
+                                                the element we wanna stylize by inspecting it , in this way it'll be very much easier */
+
+    margin-top: 0;
+    font-family: 'Sacramento', cursive
+                                                }
+
+.h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.middle-container{                              /* In inlign elements we can't change the width but instead of we can change the display */
+                                                /* Position/ absolute/static/relative/fixed */
+    background-color: white;
+    position: relative;
+    padding-top: 20px;
+
+}
+
+.bottom-container{
+    
+}
+
+.top-cloud{
+    position: absolute;
+    right: 310px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 340px;
+    bottom: 295px;
+}
+
+.prof{
+    height: 200px;
+    width: 200px;
+    border-radius: 120px;
+    position: relative;
+}
+
+.profile{
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.ski{
+    height: 350px;
+    width: 350px;
+    border-radius: 250px;
+}
+
+
+.ski2{
+    height: 350px;
+    width: 350px;
+    border-radius: 250px;
+    background-color: black;
+}
+
+p{
+    line-height: 2em;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+
+.bottom-container .footer-link:hover{
+    color: red;
+}
